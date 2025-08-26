@@ -8,11 +8,11 @@ export function AboutSection() {
 				<div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
 					<div>
 						<h2 className="text-2xl sm:text-3xl md:text-4xl mb-4 md:mb-6 text-primary">
-							About MedCare Hospital
+							About Tessa Queen Hospital
 						</h2>
 						<p className="mb-4 md:mb-6 text-muted-foreground">
-							For over 50 years, MedCare Hospital has been at the forefront of
-							medical excellence, serving our community with dedication,
+							For over 50 years, Tessa Queen Hospital has been at the forefront
+							of medical excellence, serving our community with dedication,
 							innovation, and unwavering commitment to patient care.
 						</p>
 						<p className="mb-6 md:mb-8 text-muted-foreground">

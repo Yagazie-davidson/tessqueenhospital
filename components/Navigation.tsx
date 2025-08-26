@@ -2,7 +2,7 @@
 
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
-import { Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export function Navigation() {
@@ -39,7 +39,7 @@ export function Navigation() {
 							<span className="text-white text-lg">+</span>
 						</div>
 						<span className="text-lg md:text-xl font-semibold text-primary">
-							MedCare Hospital
+							Tessa Queen Hospital
 						</span>
 					</div>
 
@@ -75,7 +75,7 @@ export function Navigation() {
 						>
 							Contact
 						</button>
-						<Button onClick={() => scrollToSection("contact")} size="sm">
+						<Button onClick={() => scrollToSection("contact")} size="lg">
 							Book Appointment
 						</Button>
 					</div>
@@ -84,54 +84,55 @@ export function Navigation() {
 					<div className="md:hidden">
 						<Sheet open={isOpen} onOpenChange={setIsOpen}>
 							<SheetTrigger asChild>
-								<Button variant="outline" size="sm">
-									<Menu className="w-4 h-4" />
-								</Button>
+								{/* <Button variant="outline" size="sm"> */}
+								<Menu className="w-4 h-4" />
+								{/* </Button> */}
 							</SheetTrigger>
 							<SheetContent side="right" className="w-[300px] sm:w-[400px]">
 								<div className="flex flex-col space-y-6 mt-8">
-									<div className="flex items-center space-x-2 pb-4 border-b">
+									<div className="flex items-center space-x-2 pb-4 border-b mx-2">
 										<div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
 											<span className="text-white text-lg">+</span>
 										</div>
 										<span className="text-xl font-semibold text-primary">
-											MedCare Hospital
+											Tessa Queen Hospital
 										</span>
 									</div>
 
 									<button
 										onClick={() => scrollToSection("home")}
-										className="text-left text-foreground hover:text-primary transition-colors py-2"
+										className="text-left text-foreground hover:text-primary transition-colors py-2 pl-5"
 									>
 										Home
 									</button>
 									<button
 										onClick={() => scrollToSection("about")}
-										className="text-left text-foreground hover:text-primary transition-colors py-2"
+										className="text-left text-foreground hover:text-primary transition-colors py-2 pl-5"
 									>
 										About
 									</button>
 									<button
 										onClick={() => scrollToSection("services")}
-										className="text-left text-foreground hover:text-primary transition-colors py-2"
+										className="text-left text-foreground hover:text-primary transition-colors py-2 pl-5"
 									>
 										Services
 									</button>
 									<button
 										onClick={() => scrollToSection("staff")}
-										className="text-left text-foreground hover:text-primary transition-colors py-2"
+										className="text-left text-foreground hover:text-primary transition-colors py-2 pl-5"
 									>
 										Our Team
 									</button>
 									<button
 										onClick={() => scrollToSection("contact")}
-										className="text-left text-foreground hover:text-primary transition-colors py-2"
+										className="text-left text-foreground hover:text-primary transition-colors py-2 pl-5"
 									>
 										Contact
 									</button>
 									<Button
 										onClick={() => scrollToSection("contact")}
-										className="mt-4"
+										className="mt-4 mx-3"
+										size={"lg"}
 									>
 										Book Appointment
 									</Button>
