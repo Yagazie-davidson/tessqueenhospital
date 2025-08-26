@@ -1,5 +1,5 @@
 "use client";
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Linkedin } from "lucide-react";
 import Link from "next/link";
 
 export function Footer() {
@@ -27,10 +27,9 @@ export function Footer() {
 							for over 50 years.
 						</p>
 						<div className="flex space-x-4">
-							<Facebook className="w-5 h-5 text-blue-100 hover:text-white cursor-pointer transition-colors" />
-							<Twitter className="w-5 h-5 text-blue-100 hover:text-white cursor-pointer transition-colors" />
-							<Instagram className="w-5 h-5 text-blue-100 hover:text-white cursor-pointer transition-colors" />
-							<Linkedin className="w-5 h-5 text-blue-100 hover:text-white cursor-pointer transition-colors" />
+							<Link href={""}>
+								<Linkedin className="w-5 h-5 text-blue-100 hover:text-white cursor-pointer transition-colors" />
+							</Link>
 						</div>
 					</div>
 
