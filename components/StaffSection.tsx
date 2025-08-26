@@ -1,13 +1,15 @@
+import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Card, CardContent } from "./ui/card";
 
 export function StaffSection() {
 	const staff = [
 		{
 			name: "Dr. Ezinwa Ugwuadu",
-			position: "Chief of General",
+			position: "Senior Medical Officer",
 			specialty: "General",
 			experience: "7+ years",
 			education: "Lagos State Univeristy Teaching Hospital",
+			image: "/dr_ezinwa.jpeg",
 		},
 		{
 			name: "Dr. Gregory Ikheloa",
@@ -15,6 +17,7 @@ export function StaffSection() {
 			specialty: "General",
 			experience: "20+ years",
 			education: "University",
+			image: "/dr_ezinwa.jpeg",
 		},
 		{
 			name: "Nurse Theresa Ugwuadu",
@@ -22,6 +25,7 @@ export function StaffSection() {
 			specialty: "Nursing",
 			experience: "15+ years",
 			education: "Medical School",
+			image: "/dr_ezinwa.jpeg",
 		},
 	];
 
@@ -47,11 +51,11 @@ export function StaffSection() {
 						>
 							<CardContent className="p-4 md:p-6">
 								<div className="mb-4 md:mb-6">
-									{/* <ImageWithFallback
-										src="https://images.unsplash.com/photo-1565647946321-a146ac24a220?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwdGVhbSUyMGRvY3RvcnN8ZW58MXx8fHwxNzU2MjE1Nzc1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+									<ImageWithFallback
+										src={doctor.image}
 										alt={doctor.name}
 										className="w-20 h-20 md:w-24 md:h-24 rounded-full mx-auto object-cover"
-									/> */}
+									/>
 								</div>
 								<h3 className="text-lg md:text-xl mb-1 md:mb-2 text-primary">
 									{doctor.name}
