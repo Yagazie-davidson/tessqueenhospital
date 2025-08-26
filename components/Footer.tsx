@@ -94,7 +94,13 @@ export function Footer() {
 							<p className="mt-3">Emergency: (555) 911-1234</p>
 							<p>Main: (555) 123-4567</p>
 							<p className="mt-3">info@medcarehospital.com</p>
-							<Link href={""} className="mt-3 underline">
+							<Link
+								target="_blank"
+								href={
+									"https://www.google.com/maps/place/Tessa+Hospital/@6.5997701,3.2875354,17z/data=!3m1!4b1!4m6!3m5!1s0x103b91d6d86516b1:0x70dac1cee6aec77f!8m2!3d6.5997701!4d3.2901103!16s%2Fg%2F11h64nf78t?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
+								}
+								className="mt-3 underline"
+							>
 								Find us
 							</Link>
 						</div>
