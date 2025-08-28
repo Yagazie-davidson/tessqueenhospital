@@ -5,26 +5,10 @@ export function StaffSection() {
 	const staff = [
 		{
 			name: "Dr. Ezinwa Ugwuadu",
-			position: "Senior Medical Officer",
+			position: "Managing Director",
 			specialty: "General",
-			experience: "7+ years",
+			experience: "10+ years",
 			education: "Lagos State Univeristy Teaching Hospital",
-			image: "/dr_ezinwa.jpeg",
-		},
-		{
-			name: "Dr. Gregory Ikheloa",
-			position: "MD",
-			specialty: "General",
-			experience: "20+ years",
-			education: "University",
-			image: "/dr_ezinwa.jpeg",
-		},
-		{
-			name: "Nurse Theresa Ugwuadu",
-			position: "Matron, Head of Nursing",
-			specialty: "Nursing",
-			experience: "15+ years",
-			education: "Medical School",
 			image: "/dr_ezinwa.jpeg",
 		},
 	];
@@ -43,7 +27,10 @@ export function StaffSection() {
 					</p>
 				</div>
 
-				<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+				<div
+					// className="sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"
+					className="flex justify-center items-center"
+				>
 					{staff.map((doctor, index) => (
 						<Card
 							key={index}

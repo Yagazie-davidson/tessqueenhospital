@@ -33,7 +33,10 @@ export function ContactSection() {
 								<div>
 									<h4 className="mb-1">Phone</h4>
 									<p className="text-muted-foreground text-sm md:text-base">
-										Main: (+234) 1234567
+										Main: (+234) 805 980 3789
+									</p>
+									<p className="text-muted-foreground text-sm md:text-base">
+										Phone: (+234) 808 370 6519
 									</p>
 								</div>
 							</div>
@@ -61,9 +64,9 @@ export function ContactSection() {
 									<p className="text-muted-foreground text-sm md:text-base">
 										Emergency: 24/7
 										<br />
-										Outpatient: Mon-Fri 8AM-6PM
+										{/* Outpatient: Mon-Fri 8AM-6PM
 										<br />
-										Saturday: 9AM-2PM
+										Saturday: 9AM-2PM */}
 									</p>
 								</div>
 							</div>

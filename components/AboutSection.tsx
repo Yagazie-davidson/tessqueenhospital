@@ -11,22 +11,17 @@ export function AboutSection() {
 							About Tessa Queen Hospital
 						</h2>
 						<p className="mb-4 md:mb-6 text-muted-foreground">
-							For over 50 years, Tessa Queen Hospital has been at the forefront
-							of medical excellence, serving our community with dedication,
-							innovation, and unwavering commitment to patient care.
+							Guided by our belief that while doctors care, only God heals,
+							Tessa Queen Hospital provides a unique blend of professional
+							healthcare and heartfelt service. Our mission is to restore
+							health, bring comfort, and inspire hope because every life is
+							precious.
 						</p>
-						<p className="mb-6 md:mb-8 text-muted-foreground">
-							Our state-of-the-art facility houses the latest medical technology
-							and is staffed by some of the most skilled and experienced medical
-							professionals in the region. We believe that every patient
-							deserves personalized attention and the highest quality of care.
-						</p>
-
 						<div className="grid grid-cols-2 gap-3 md:gap-6">
 							<Card>
 								<CardContent className="p-4 md:p-6 text-center">
 									<h3 className="text-xl md:text-2xl mb-1 md:mb-2 text-primary">
-										50+
+										8+
 									</h3>
 									<p className="text-sm md:text-base text-muted-foreground">
 										Years of Excellence
@@ -36,7 +31,7 @@ export function AboutSection() {
 							<Card>
 								<CardContent className="p-4 md:p-6 text-center">
 									<h3 className="text-xl md:text-2xl mb-1 md:mb-2 text-primary">
-										200+
+										20+
 									</h3>
 									<p className="text-sm md:text-base text-muted-foreground">
 										Medical Professionals
@@ -53,7 +48,7 @@ export function AboutSection() {
 									</p>
 								</CardContent>
 							</Card>
-							<Card>
+							{/* <Card>
 								<CardContent className="p-4 md:p-6 text-center">
 									<h3 className="text-xl md:text-2xl mb-1 md:mb-2 text-primary">
 										15
@@ -62,13 +57,13 @@ export function AboutSection() {
 										Specialized Departments
 									</p>
 								</CardContent>
-							</Card>
+							</Card> */}
 						</div>
 					</div>
 
 					<div className="relative order-first md:order-last">
 						<ImageWithFallback
-							src="https://images.unsplash.com/photo-1721114989769-0423619f03d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxob3NwaXRhbCUyMHBhdGllbnQlMjBjYXJlfGVufDF8fHx8MTc1NjIxNTc3Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+							src="/doctor-patient.webp"
 							alt="Hospital patient care"
 							className="rounded-lg shadow-lg w-full h-[250px] md:h-[400px] object-cover"
 						/>

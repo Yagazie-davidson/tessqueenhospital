@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Menu } from "lucide-react";
@@ -35,8 +36,8 @@ export function Navigation() {
 			<div className="container mx-auto px-4 py-3 md:py-4">
 				<div className="flex items-center justify-between">
 					<div className="flex items-center space-x-2">
-						<div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-							<span className="text-white text-lg">+</span>
+						<div className="w-16 h-16 border  border-primary rounded-full flex items-center justify-center">
+							<Image src={"./logo.png"} alt="logo" width={80} height={80} />
 						</div>
 						<span className="text-lg md:text-xl font-semibold text-primary">
 							Tessa Queen Hospital
@@ -57,12 +58,12 @@ export function Navigation() {
 						>
 							About
 						</button>
-						<button
+						{/* <button
 							onClick={() => scrollToSection("services")}
 							className="text-foreground hover:text-primary transition-colors"
 						>
 							Services
-						</button>
+						</button> */}
 						<button
 							onClick={() => scrollToSection("staff")}
 							className="text-foreground hover:text-primary transition-colors"

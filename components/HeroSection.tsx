@@ -23,12 +23,12 @@ export function HeroSection() {
 			<div className="relative container mx-auto px-4 py-16 md:py-20">
 				<div className="max-w-3xl">
 					<h1 className="text-3xl font-semibold sm:text-4xl md:text-5xl lg:text-6xl mb-4 md:mb-6 text-primary leading-tight">
-						Compassionate Care, Advanced Medicine
+						We Care, God Heals
 					</h1>
 					<p className="text-lg md:text-xl mb-6 md:mb-8 text-muted-foreground max-w-2xl leading-relaxed">
-						At Tessa Queen Hospital, we combine cutting-edge medical technology
-						with personalized, compassionate care to provide you and your family
-						with the best possible health outcomes.
+						At Tessa Queen Hospital, we are dedicated to providing quality
+						healthcare with compassion, dignity, and excellence because every
+						life matters.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-3 md:gap-4">
 						<Button
@@ -41,10 +41,10 @@ export function HeroSection() {
 						<Button
 							variant="outline"
 							size="lg"
-							onClick={() => scrollToSection("services")}
+							onClick={() => scrollToSection("about")}
 							className="w-full sm:w-auto"
 						>
-							Our Services
+							About us
 						</Button>
 					</div>
 				</div>

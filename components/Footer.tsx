@@ -23,8 +23,7 @@ export function Footer() {
 							<span className="text-lg md:text-xl">Tessa Queen Hospital</span>
 						</div>
 						<p className="text-blue-100 mb-4 text-sm md:text-base">
-							Providing exceptional healthcare with compassion and excellence
-							for over 50 years.
+							We care, God heals
 						</p>
 						<div className="flex space-x-4">
 							<Link href={""}>
@@ -53,14 +52,14 @@ export function Footer() {
 									About Us
 								</button>
 							</li>
-							<li>
+							{/* <li>
 								<button
 									onClick={() => scrollToSection("services")}
 									className="text-blue-100 hover:text-white transition-colors text-sm md:text-base cursor-pointer"
 								>
 									Services
 								</button>
-							</li>
+							</li> */}
 							<li>
 								<button
 									onClick={() => scrollToSection("staff")}
@@ -73,7 +72,7 @@ export function Footer() {
 					</div>
 
 					{/* Services */}
-					<div>
+					{/* <div>
 						<h4 className="text-lg mb-4">Our Services</h4>
 						<ul className="space-y-2 text-blue-100 text-sm md:text-base">
 							<li>Emergency Care</li>
@@ -83,17 +82,17 @@ export function Footer() {
 							<li>Orthopedics</li>
 							<li>Internal Medicine</li>
 						</ul>
-					</div>
+					</div> */}
 
 					{/* Contact Info */}
 					<div>
 						<h4 className="text-lg mb-4">Contact Info</h4>
 						<div className="space-y-2 text-blue-100 text-sm md:text-base">
-							<p>123 Healthcare Boulevard</p>
-							<p>Medical District, MD 12345</p>
-							<p className="mt-3">Emergency: (555) 911-1234</p>
-							<p>Main: (555) 123-4567</p>
-							<p className="mt-3">info@medcarehospital.com</p>
+							<p>12 Jezza Street</p>
+							<p>Egbeda, Lagos Nigeria</p>
+							<p className="mt-3">Main: (+234) 805 980 3789</p>
+							<p>Phone: (+234) 808 370 6519</p>
+							<p className="mt-3">info@tessaqueenhospital.com</p>
 							<Link
 								target="_blank"
 								href={
